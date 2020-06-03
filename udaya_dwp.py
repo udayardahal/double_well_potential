@@ -1,7 +1,14 @@
 """
-===========
-Slider By Udaya
-===========
+===============================================================================
+This is double well potential used in constant pH molecular dynamics simulation.
+This code helps you to interactively choose the value to meet your requirement. 
+The barrier height, location of potential well and the shape of the well to the 
+barrier is important to sample the protonation and deprotonation state and avoid 
+unphysical state. The parameters of the double well potential are different for 
+different chemical composition.
+This potential is a function of U(l, k, d, b, a, w, m, s, r)
+For the equation see the paper: J.  Chem.  Theory  Comput.2016, 12, 1040−1051
+===============================================================================
 
 Using the slider widget to control visual properties of your plot.
 
